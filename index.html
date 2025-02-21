@@ -1,329 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="style.css">
+    <title>Netflix Landing Page</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+     <div class="main"> 
+        <nav>
+         <span><img width ="53" src="aa7ez9hjc-removebg-preview.png" alt=""></span>
+       <div class="main-btn">
+            <button class="btn">English</button>
+            <button class="btn btn-red-sm">Sign In</button>
+            
+        </div>  
+        </nav> 
+         <div class="box"></div>
+         <div class="hero">
+           <span> Unlimited movies, TV shows, and more</span>
+           <span>Starts at Rs 250. Cancel anytime.</span> 
+            
+           <span>Ready to watch? Enter your email to create or restart your membership.</span>
+        <div class="hero-btn">
+            <input type="text" placeholder="Email here">
+            <button class="btn btn-red">Get Started ></button>
+        </div>
+        </div>
+        <div class="seperation">
 
-        <!-- Navbar -->
-        <div class="navbar">
-            <div class="logo">My Website</div>
-            <div class="menu-icon" onclick="toggleDropdown()">☰</div>
-            <div class="dropdown-menu" id="dropdownMenu">
-                <a href="#" onclick="setResponsiveMode('mobile')">📱 Mobile</a>
-                <a href="#" onclick="setResponsiveMode('tablet')">📲 Tablet</a>
-                <a href="#" onclick="setResponsiveMode('desktop')">💻 Desktop</a>
+        </div>  
+        <section class="first"> 
+            <div>
+            <span>Enjoy on your TV</span>
+            <span>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</span>
             </div>
-        </div>
-    
-        <div class="content">
-        </div>
+            <div class="secImg">
+                <img src="images_34-removebg-preview.png" alt="">
+                <video src="video-tv-in-0819.m4v"autoplay loop muted ></video> 
+               
+                  
+            </div>
+        </section>
+         <div class="seperation"> 
 
+        </div>
+        <section class="first second"> 
+            <div class="secImg">
+                <img src="https://raw.githubusercontent.com/thatanjan/netflix-clone-yt/youtube/media/mobile.jpg" alt="">
+                
+            </div>
+            <div>
+            <span>Download your shows to watch offline</span>
+            <span>Save your favourites easily and always have something to watch.</span>
+            </div>
+          
+        </section>
+        <div class="seperation">
 
-        <div class="navbar">
-            <div class="nav-left">
-                <a href="#">Support</a>
-                <a href="#">Store location</a>
-            </div>
-            <div class="nav-center">
-                <span>Fast shipping, and a 100% satisfaction guarantee. <a href="#">Show all products</a></span>
-            </div>
-         
         </div>
-        <nav class="navbar">
-            <div class="logo">
-                <img src="White & Black Minimalist Logo Distro Fashion.png" alt="The Impulse Shoppe">
+        <section class="first third"> 
+            <div class="secImg">
+                <img src="images_34-removebg-preview.png" alt="">
+                <video class="video" src="video1.m4v"autoplay loop muted ></video> 
+                
             </div>
-            <div class="nav-icons">
-                <a href="#"><i class="fas fa-search"></i></a>
-                <a href="#"><i class="fas fa-user"></i></a>
-                <a href="#"><i class="fas fa-heart"></i></a>
-                <a href="#"><i class="fas fa-shopping-bag"></i></a>
+            <div>
+            <span>Download your shows to watch offline</span>
+            <span>Save your favourites easily and always have something to watch.</span>
             </div>
-        </nav>
-    <nav class="menu">
-        <div class="menu-item">Babies & Kids ▼
-            <div class="dropdown">
-                <a href="#">Toys</a>
-                <a href="#">Clothing</a>
-                <a href="#">Accessories</a>
-            </div>
-        </div>
-        <div class="menu-item">Baby Products ▼
-            <div class="dropdown">
-                <a href="#">Diapers</a>
-                <a href="#">Feeding</a>
-                <a href="#">Bath</a>
-            </div>
-        </div>
-        <div class="menu-item">Collar & Harness ▼
-            <div class="dropdown">
-                <a href="#">Dog Collars</a>
-                <a href="#">Cat Harness</a>
-            </div>
-        </div>
-        <div class="menu-item">Equine ▼</div>
-        <div class="menu-item">Footwear ▼</div>
-        <div class="menu-item">Outdoor ▼</div>
-        <div class="menu-item">Party & Occasions ▼</div>
-        <div class="menu-item">Fashion & Jewelry ▼</div>
-        <div class="menu-item">Home & Garden ▼</div>
-        <div class="menu-item">Furniture ▼</div>
-        <div class="menu-item">Office Supplies ▼</div>
-        <div class="menu-item">Electronics ▼</div>
-    </nav>
-    <div class="product-container">
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Product Name</h4>
-                <p>$19.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
+          
+        </section>
+        <div class="seperation">
 
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Another Product</h4>
-                <p>$24.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
         </div>
+        <section class="first forth">
+            <div class="secImg">
+                <img src="https://occ-0-4023-2164.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABVxdX2WnFSp49eXb1do0euaj-F8upNImjofE77XStKhf5kUHG94DPlTiGYqPeYNtiox-82NWEK0Ls3CnLe3WWClGdiJP.png?r=5cf" alt="">
+                
+            </div>
+            <div>
+            <span>Watch everywher</span>
+            <span>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</span>
+            </div>
+           
+        </section>
+        <div class="seperation">
 
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-    </div>
-        <div class="product-card">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product">
-            <div class="product-info">
-                <h4>Third Product</h4>
-                <p>$29.99</p>
-            </div>
-            <div class="add-to-cart">Add to Cart</div>
-        </div>
+         </div> 
+         <section class="faq"> 
+            <h2>Frequently Asked Questions</h2>
+            <div class="faqbox">
+                <span>What is NetFlix</span>
    
-</div>
-<div class="card-container">
-<div class="product-card-2">
-    <h2>32" White Glass And Metal Two Tier Round Coffee Table</h2>
-    <div class="price">
-        <span class="original-price">$265.98</span> $263.10
-    </div>
-    <p class="description">
-        Give your living room, family room, or office the perfect anchor piece with this 32" white glass and metal round coffee table. This coffee table is expertly made from high-quality metal.
-    </p>
-    <div class="stock-info">
-        <p>@89 people are viewing this right now.</p>
-        <p>15 products sold in last 10 hours.</p>
-        <p>Hurry! Only <span>35 items</span> left in stock.</p>
-    </div>
-    <div class="actions">
-        <button class="buy-now">Buy it now</button>
-    </div>
-</div>
-<div class="product-card-2">
-    <p><strong>Color:</strong> <span id="selected-color">Black</span></p>
-    <div class="color-options">
-        <span class="selected" style="background: black;" data-color="Black"></span>
-        <span style="background: gray;" data-color="Gray"></span>
-        <span style="background: white; border: 1px solid #ccc;" data-color="White"></span>
-    </div>
-    <p><strong>Quantity:</strong></p>
-    <div class="quantity-selector">
-        <button id="decrease">-</button>
-        <span id="quantity">1</span>
-        <button id="increase">+</button>
-    </div>
-    <div class="buttons">
-        <button class="buy-btn">Buy it now</button>
-    </div>
-    <div class="secure-payment">
-        <img src="https://via.placeholder.com/350x50" alt="Secure Payment Options">
-    </div>
-    <div class="delivery-info">
-        <p>📦 Estimated delivery: Oct 01 - Oct 05</p>
-        <p>🔄 Free return within <strong>30 days</strong> of purchase.</p>
-    </div>
-</div>
-</div>
-<div class="container">
-    <div class="tabs">
-        <div class="tab active">Product description</div>
-        <div class="tab">Additional information</div>
-        <div class="tab">Shipping & return</div>
-        <div class="tab">Product reviews</div>
-    </div>
-    <div class="content">
-        <div class="text">
-            <h4>THE QUALITY AND STYLE</h4>
-            <h2>Minimalist design and premium quality product.</h2>
-            <p>Lorem ipsum is simply dummy printing and typesetting industry ipsum been industry standard dummy text ever since unknown printer galley typesetting industry ipsum been the industry printing.</p>
-        </div>
-        <div class="image">
-            <img src="spacejoy-IH7wPsjwomc-unsplash.jpg" alt="Product Image">
-        </div>
-    </div>
-</div>
+            </div>
+            <div class="faqbox">
+                <span>What is NetFlix</span>
+   
+            </div>
+            <div class="faqbox">
+                <span>What is NetFlix</span>
+   
+            </div>
+            <div class="faqbox">
+                <span>What is NetFlix</span>
+   
+            </div>
+            <div class="faqbox">
+                <span>What is NetFlix</span>
+   
+            </div>
+            <div class="faqbox">
+                <span>What is NetFlix</span>
+   
+            </div>
+          
+        </section>
+        <div class="separation">
 
+        </div>
 
-<div class="container">
-    <div class="features">
-        <div class="feature">1. Eco friendly product</div>
-        <div class="feature">2. Easy to clean and maintain</div>
-        <div class="feature">3. Premium finish quality</div>
-    </div>
-    <div class="image">
-        <img src="daniil-silantev-1P6AnKDw6S8-unsplash.jpg" alt="Product Image">
-    </div>
-</div>
+        <footer> 
+            <div class="questions">
+                Questions? Call 000-800-919-1694
+            </div>
+            <div class="footer">
+                <div class="footer-item"> 
+                    <a href="faq">Investor Relations</a>
+                    <a href="faq">Jobs</a>
+                    <a href="faq">Ways to Watch</a>
+                    <a href="faq">Terms of Use</a>
+                </div>
+    
+                <div class="footer-item"> 
+                    <a href="faq">Help Centre</a>
+                    <a href="faq">Account</a>
+                    <a href="faq">Speed Test</a>
+                    <a href="faq">Legal Notices</a>
+                </div>
+                <div class="footer-item">
+                    <a href="faq">Media Centre</a>
+                    <a href="faq">Privacy</a>
+                    <a href="faq">Cookie Preferences</a> 
+                    <a href="faq">Corporate</a>
+                </div>
+    
+                <div class="footer-item">
+                    <a href="faq">Contact Us</a>
+                    <a href="faq">Speed Test</a> 
+                    <a href="faq">Legal Notices</a> 
+                    <a href="faq">Only on Netflix</a>
+                </div>
+            </div>
+        </footer> 
 
-
-<div class="container">
-    <p>YOU MAY ALSO LOVE</p>
-    <h2>Similar products</h2>
-    <div class="arrows">
-        <span class="arrow" onclick="scrollLeft()">&#9664;</span>
-        <span class="arrow" onclick="scrollRight()">&#9654;</span>
-    </div>
-    <div class="products" id="productList">
-        <div class="product">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product 1">
-            <div class="rating">★★★★★</div>
-            <p>32" Champagne Glass And Metal Round Coffee...</p>
-            <strong>$269.02</strong>
-        </div>
-        <div class="product">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product 2">
-            <div class="rating">★★★★★</div>
-            <p>37" Chrome And Silver Mirrored Two Tier Round...</p>
-            <strong>$213.97</strong>
-        </div>
-        <div class="product">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product 3">
-            <div class="rating">★★★★★</div>
-            <p>32" Brown Rustic and Distressed Round Two Tier...</p>
-            <strong>$322.39</strong>
-        </div>
-        <div class="product">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product 4">
-            <div class="rating">★★★★★</div>
-            <p>36" Black Glass And Metal Round Coffee Table...</p>
-            <strong>$263.29</strong>
-        </div>
-        <div class="product">
-            <img src="marissa-grootes-D4jRahaUaIc-unsplash.jpg" alt="Product 5">
-            <div class="rating">★★★★★</div>
-            <p>31" Champagne Glass And Metal Round Coffee...</p>
-            <strong>$242.10</strong>
-        </div>
-    </div>
-</div>
-<div class="footer">
-    <div>
-        <h3>Welcome to our online store!</h3>
-        <p>We are a team of passionate individuals who have come together to bring you the best shopping experience possible.</p>
-        <a href="#">FIND A LOCAL STORE</a>
-    </div>
-    <div>
-        <h3>Categories</h3>
-        <a href="#">Jewelry</a>
-        <a href="#">SubWoofers</a>
-        <a href="#">Furniture</a>
-        <a href="#">Lighting</a>
-        <a href="#">Boat Outfitting</a>
-    </div>
-    <div>
-        <h3>Information</h3>
-        <a href="#">About us</a>
-        <a href="#">FAQ's</a>
-        <a href="#">Latest news</a>
-        <a href="#">Best sellers</a>
-        <a href="#">Contact us</a>
-    </div>
-    <div>
-        <h3>Quick links</h3>
-        <a href="#">My account</a>
-        <a href="#">Policies</a>
-        <a href="#">Refund and Return Policy</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Privacy policy</a>
-    </div>
-    <div class="payment-icons">
-        <img src="cards.jpg" alt="Amazon">
-    </div>
-</div>
-<div class="copyright">
-    &copy;2024 The Impulse Shoppe is proudly powered by <a href="#" style="color: white; text-decoration: underline;">Site Credit</a>
-</div>
-<script src="script.js"></script>
+  </div> 
 </body>
-</html>
+
+</html> 
